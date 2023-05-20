@@ -1,0 +1,35 @@
+@import url(background.css);
+@import url(header.css);
+@import url(main.css);
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --text: #EDF1F7;
+    --red: #C51212;
+}
+
+body, button, a {
+    color: var(--text);
+    font: 400 1rem 'Noto Sans', sans-serif;
+}
+  
+a {
+    text-decoration: none;
+}
+  
+button:hover {
+    cursor: pointer;
+}
+
+#game{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+}
